@@ -1,0 +1,19 @@
+library ieee;
+use ieee. std_logic_1164.all;
+use ieee. std_logic_arith.all;
+use ieee. std_logic_unsigned.all;
+
+entity JK_FF is
+PORT(J,K,CLOCK: in std_logic;
+Q: out std_logic);
+end JK_FF;
+
+architecture behavioral of JK_FF is
+begin
+process (CLOCK)
+begin
+if(CLOCK='1' and CLOCK'EVENT) then
+Q<=J*not(Q)+not(K)*Q;
+end if;
+end process;
+end behavioral;
