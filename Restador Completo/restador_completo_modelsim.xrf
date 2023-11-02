@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, D:/giuli/Restador Completo/restador_completo.vhd
+source_file = 1, D:/giuli/Restador Completo/TB_restador_completo.vhd
+source_file = 1, D:/giuli/Restador Completo/db/restador_completo.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = restador_completo
+instance = comp, \R~output\, R~output, restador_completo, 1
+instance = comp, \B~output\, B~output, restador_completo, 1
+instance = comp, \X~input\, X~input, restador_completo, 1
+instance = comp, \Y~input\, Y~input, restador_completo, 1
+instance = comp, \R~0\, R~0, restador_completo, 1
+instance = comp, \B~0\, B~0, restador_completo, 1
