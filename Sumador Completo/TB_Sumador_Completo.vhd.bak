@@ -1,0 +1,8 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity TB_Sumador_Completo is
+end TB_Sumador_Completo;
+
+architecture behavior of TB_Sumador_Completo is
+component Sumador_Completo
